@@ -30,7 +30,7 @@ pipeline
      {
          steps
          {
-             sh 'cp -R /root/.jenkins/workspace/dpipeline/target/* /opt/apache-tomcat-8.5.3/webapps'
+             sh 'cp -R /root/.jenkins/workspace/node_maven_slave/target/* /opt/apache-tomcat-8.5.3/webapps'
          }
      }
         
